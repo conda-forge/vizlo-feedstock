@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -22,7 +22,7 @@ requirements:
     - python >=3.6
     - clingo >=5.4
     - networkx >=2.4
-    - matplotlib >=3.2
+    - matplotlib-base >=3.2
     - numpy >=1.16
     - python-igraph >=0.8
 
